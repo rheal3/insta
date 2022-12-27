@@ -1,5 +1,6 @@
 import React from 'react';
 import Recipe from './Recipe/recipe'
+import RecipeCard from './RecipeCard/recipeCard'
 import useStyles from './styles';
 
 const Recipes = () => {
@@ -7,8 +8,8 @@ const Recipes = () => {
     return (
         <>
            <h1>RECIPES</h1>
-           <Recipe />  
-           <Recipe />   
+           <RecipeCard />  
+           <RecipeCard />   
         </>
 
     );
